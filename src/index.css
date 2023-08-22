@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
 
+
 * {
   color: #5a5757;
   font-size: 20px;
@@ -80,7 +81,7 @@
 
 .points-value {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 0px;
   font-size: 70px;
   color: #5D4A28;
 }
