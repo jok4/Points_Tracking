@@ -3,13 +3,14 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import SignUp from "./SignUp";
 import Points from "./Points";
+//<Route exact path="/Points_Tracking/" Component={SignUp} />
+
 
 function AppRouter() {
     return (
         <Router>
             <Routes>
-                <Route exact path="/Points_Tracking/" Component={SignUp} />
-                <Route exact path="/Points_Tracking/track" Component={Points} />
+                <Route exact path="/Points_Tracking/" Component={Points} />
             </Routes>
                  </Router>
     )
